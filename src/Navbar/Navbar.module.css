@@ -1,0 +1,22 @@
+.navbar {
+    grid-area: navbar;
+    background-color: lightpink;
+    margin-left: 300px;
+}
+
+.list{
+    list-style: none;
+}
+.list li a{
+    padding: 5px;
+    color: white;
+}
+.list li a:hover {
+    cursor: pointer;
+    border: 1px solid red;
+    background-color: white;
+    color: red;
+    border-radius: 4px;
+    padding: 5px;
+    width: 140px;
+}

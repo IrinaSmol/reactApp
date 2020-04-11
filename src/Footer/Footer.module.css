@@ -1,0 +1,9 @@
+.footer {
+    grid-area: footer;
+    background-color: indigo;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    height: fit-content;
+    color: whitesmoke;
+}

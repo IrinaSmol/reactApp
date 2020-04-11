@@ -1,0 +1,39 @@
+.header {
+    grid-area: header;
+    background-color: rgb(197, 231, 133);
+}
+.header img {
+    width: 90px;
+    margin: 10px 0 0 305px;
+}
+.header_info {
+    float: right;
+    padding: 20px;
+    margin-right: 305px;
+}
+
+.header_info button {
+    padding: 6px;
+    border: 1px solid red;
+    border-radius: 3px;
+    margin: 0 25px;
+    width: 75px;
+    height: 35px;
+    font-weight: bold;
+    background-color: white;
+}
+
+.header_info button:hover {
+    background-color: rgb(216, 76, 76);
+    color: white;
+}
+a {
+    text-decoration: none;
+    color: red;
+    width: 70px;
+    height: 80px;
+}
+.header_info a:hover {
+    color: black;
+    font-weight: bold;
+}
